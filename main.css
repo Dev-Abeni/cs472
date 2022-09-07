@@ -1,0 +1,23 @@
+body {
+    font-family: "Inter", sans-serif;
+    text-align: center;
+}
+
+#my-picture {
+    border-radius: 50%;
+    border: 2px solid rgb(225, 223, 223);
+    height: 200px;
+    width: 200px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    font-weight: 600;
+}
+
+#list {
+    align-items: left;
+}
