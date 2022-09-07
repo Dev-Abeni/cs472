@@ -1,0 +1,110 @@
+body {
+    background-image: url("images/background.png");
+    font-size: 8pt;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+.banner-bg {
+    text-align: center;
+    background-image: url("images/bannerbg.png");
+    background-repeat: repeat-x;
+    height: 50px;
+}
+
+.movie-tmnt {
+    text-align: center;
+    font-size: 24pt;
+    font-weight: bold;
+    font-family: Tahoma, Verdana, sans-serif;
+    text-shadow: 3px 3px #999999;
+}
+
+.container {
+    margin: auto;
+    width: 81.92%;
+    border: 4px solid grey;
+    border-radius: 20px;
+    position: relative;
+}
+
+.right-section {
+    position: absolute;
+    left: 550px;
+    width: 250px;
+    padding-right: 10pt;
+    background-color: #A2B964;
+    font-size: 8pt;
+    font-family: Arial, sans-serif;
+}
+
+.left-section {
+    position: relative;
+    width: 550px;
+    background-color: inherit;
+}
+
+.rotten-bg {
+    background-image: url("images/rbg.png");
+    background-repeat: repeat-x;
+    height: 83px;
+    color: red; 
+    font-weight: bold;
+    font-size: 48pt;
+}
+
+.left-critic-column {
+    width: 47%;
+    position: absolute;
+}
+
+.right-critic-column {
+    width: 47%;
+    position: relative;
+    left: 50%;
+}
+
+.quote {
+    font-weight: bold;
+    font-size: 8pt;
+    background-color: #E8DC9B;
+    border: 2px solid grey;
+    border-radius: 10px;
+    padding: 8px;
+    margin-top: 20pt;
+}
+
+.critic-icon {
+    float: left;
+    margin-right: 5px;
+}
+
+.commenter-icon {
+    float: left;
+    margin-right: 5px;
+}
+
+.publication {
+    font-style: italic;
+}
+
+.term {
+    font-weight: bold;
+    margin-bottom: 10pt;
+    padding: 10pt;
+}
+
+.links {
+    list-style-type: none;
+}
+
+.pagination {
+    background-color: #A2B964;
+    height: 10pt;
+    text-align: center;
+}
+
+.validators {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
