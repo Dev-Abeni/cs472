@@ -1,0 +1,65 @@
+:root {
+  --main-padding: 23px;
+  --label-size: 15pt;
+}
+
+body {
+  font-weight: 600;
+}
+
+header {
+  background: rgb(121, 179, 202);
+  height: 10vh;
+  font-size: var(--label-size);
+  padding: var(--main-padding);
+}
+
+nav {
+  background: rgb(0, 57, 28);
+  list-style: none;
+  font-size: var(--label-size);
+  color: white;
+  padding: var(--main-padding);
+  text-decoration: none;
+}
+
+.menu-items li {
+  display: inline;
+}
+
+#menu1 {
+  padding: var(--main-padding);
+}
+
+#menu2 {
+  padding: var(--main-padding);
+}
+
+#menu3 {
+  padding: var(--main-padding);
+}
+
+.row {
+  height: 550px;
+}
+
+#column1 {
+  background: grey;
+  padding: var(--main-padding);
+}
+
+#column2 {
+  background: rgb(165, 165, 165);
+  padding: var(--main-padding);
+}
+
+#column3 {
+  background: rgb(216, 215, 215);
+  padding: var(--main-padding);
+}
+
+footer {
+  background: rgb(0, 57, 28);
+  padding: var(--main-padding);
+  color: white;
+}
