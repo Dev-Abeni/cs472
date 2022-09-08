@@ -1,105 +1,112 @@
 :root {
-    --main-padding: 10px; 
+  --main-padding: 10px;
 }
 
-@media screen and(max-width: 600px){
-    .container {
-        display: grid;
-        height: 75vh;
-        grid-template-columns: 2fr; 
-        grid-template-rows: 0.2fr 0.1fr 1fr 1fr 0.1fr;
-        grid-template-areas: 
-        "header"
-        "menu"
-        "columns columns"
-        "columns"
-        "footer";
-    
-        font-family: sans-serif;
-        font-weight: 300;
-        text-transform: uppercase;
-    }
+@media screen and(max-width: 600px) {
+  .container {
+    display: grid;
+    height: 75vh;
+    grid-template-columns: 2fr;
+    grid-template-rows: 0.2fr 0.1fr 1fr 1fr 0.1fr;
+    grid-template-areas:
+      "header"
+      "menu"
+      "columns columns"
+      "columns"
+      "footer";
+
+    font-family: sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+  }
 }
 
 .container {
-    display: grid;
-    height: 75vh;
-    grid-template-columns: 1fr; 
-    grid-template-rows: 0.2fr 0.1fr 1.5fr 0.1fr;
-    grid-template-areas: 
+  display: grid;
+  height: 75vh;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.2fr 0.1fr 1.5fr 0.1fr;
+  grid-template-areas:
     "header"
     "menu"
     "columns"
     "footer";
 
-    font-family: sans-serif;
-    font-weight: 300;
-    text-transform: uppercase;
+  font-family: sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
 }
 
 header {
-    grid-area: header;
-    background: rgb(121, 179, 202);
-    padding: var(--main-padding);
+  grid-area: header;
+  background: rgb(121, 179, 202);
+  padding: var(--main-padding);
 }
 
-#menu-items {
-    grid-area: menu;
-    background: rgb(0, 57, 28);
-    padding: var(--main-padding);
-    color: white;
-    display: flex;
-    flex-direction: row;
-    justify-content:flex-start;
-    align-items: flex-start;
-    border-right: 4px solid black;
+#menu {
+  grid-area: menu;
+  background: rgb(0, 57, 28);
+  padding: var(--main-padding);
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border-right: 4px solid black;
+}
+
+.menu-items {
+  list-style: none;
+}
+
+.menu-items li {
+  display: inline;
 }
 
 #menu1 {
-    padding: var(--main-padding);
+  border-right: 2px solid black;
+  padding: var(--main-padding);
 }
 
 #menu2 {
-    padding: var(--main-padding);
+  border-right: 2px solid black;
+  padding: var(--main-padding);
 }
 
 #menu3 {
-    padding: var(--main-padding);
+  padding: var(--main-padding);
 }
 
 #columns {
-    grid-area: columns;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: stretch;
-    
+  grid-area: columns;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: stretch;
 }
 
 #column1 {
-    background: grey;
-    flex-grow: 2;
-    padding: var(--main-padding);
+  background: grey;
+  flex-grow: 2;
+  padding: var(--main-padding);
 }
 
 #column2 {
-    background: rgb(165, 165, 165);
-    flex-grow: 3;
-    padding: var(--main-padding);
-
+  background: rgb(165, 165, 165);
+  flex-grow: 3;
+  padding: var(--main-padding);
 }
 
 #column3 {
-    background: rgb(216, 215, 215);
-    flex-grow: 1;
-    padding: var(--main-padding);
-
+  background: rgb(216, 215, 215);
+  flex-grow: 1;
+  padding: var(--main-padding);
 }
 
 footer {
-    grid-area: footer;
-    background: rgb(0, 57, 28);
-    padding: var(--main-padding);
-    color: white;
+  grid-area: footer;
+  background: rgb(0, 57, 28);
+  padding: var(--main-padding);
+  color: white;
 }
