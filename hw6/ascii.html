@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <!-- <meta name="view-port" content="width=device-width, initial-scale=1.0" />  -->
+        <title>ASCIImation</title>
+        <link href="ascii.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <div class="container">
+            <h1 id="main-heading">CSE 190 M ASCII Animation Viewer</h1>
+
+            <textarea id="textarea" cols="80" rows="20"></textarea>
+
+            <div class="fieldsets">
+                <fieldset id="play-controls">
+                    <legend>Play Controls:</legend>
+                    <button id="startBtn">Start</button>
+                    <button id="stopBtn">Stop</button>
+                </fieldset>
+    
+                <fieldset id="animation">
+                    <legend>Animation:</legend>
+                    <select>
+                        <option>Blank</option>
+                        <option>Exercise</option>
+                        <option>Juggler</option>
+                        <option>Bike</option>
+                        <option>Dive</option>
+                        <option>Custom</option>
+                    </select>
+                </fieldset>
+    
+                <fieldset id="size">
+                    <legend>Size:</legend>
+                    <select id="font-size">
+                        <option value="7">Tiny</option>
+                        <option value="10">Small</option>
+                        <option value="12" selected>Medium</option>
+                        <option value="16">Large</option>
+                        <option value="24">Extra Large</option>
+                        <option value="32">XXL</option>
+                    </select>
+                </fieldset>
+    
+                <fieldset id="speed">
+                    <legend>Speed:</legend>
+                    <input type="checkbox" /> Turbo
+                </fieldset>
+            </div>
+        </div>
+
+        <script src="ascii.js" type="text/javascript" />
+    </body>
+</html>

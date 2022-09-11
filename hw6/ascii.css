@@ -1,0 +1,55 @@
+body {
+    background: #ccccff;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.container {
+    text-align: center;
+}
+
+.main-heading {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+#textarea {
+    width: 90%;
+    height: 400px;
+    font-size: 12pt;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+.fieldsets {
+    /* position: relative; */
+    width: 300px;
+    margin: auto;
+}
+
+fieldset {
+    position: absolute;
+    border: 5px solid black;
+    right: 50%;
+}
+
+#play-controls {
+    left: 625px;
+    width: 100px;
+}
+
+#animation {
+    left: 760px;
+    width: 100px;
+}
+
+#size {
+    left: 900px;
+    width: 100px;
+}
+
+#speed {
+    left: 1040px;
+    width: 100px;
+}
